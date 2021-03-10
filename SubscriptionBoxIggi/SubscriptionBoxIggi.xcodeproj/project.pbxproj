@@ -242,7 +242,8 @@
 		ABDD0C5025C7BEC8004C0EE4 = {
 			isa = PBXGroup;
 			children = (
-				ABDD0C5B25C7BEC8004C0EE4 /* SubscriptionBoxIggi */,
+				ABDD0C5B25C7BEC8004C0EE4 /* SubscriptionBox2021 */,
+				AB7242EB25D6051F00D45B7D /* Navigation */,
 				ABDD0C5A25C7BEC8004C0EE4 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -255,21 +256,20 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		ABDD0C5B25C7BEC8004C0EE4 /* SubscriptionBoxIggi */ = {
+		ABDD0C5B25C7BEC8004C0EE4 /* SubscriptionBox2021 */ = {
 			isa = PBXGroup;
 			children = (
 				ABDD0C5E25C7BEC8004C0EE4 /* SceneDelegate.swift */,
 				ABDD0C5C25C7BEC8004C0EE4 /* AppDelegate.swift */,
 				ABDD0C6A25C7BECD004C0EE4 /* Info.plist */,
-				AB7242EB25D6051F00D45B7D /* Navigation */,
-				AB8E85CD25D1E3170077D947 /* Onboarding + Register */,
-				AB7242F125D605FE00D45B7D /* New Box */,
-				AB7242F025D605F700D45B7D /* Past Boxes */,
-				AB7242EF25D605F200D45B7D /* Home */,
-				AB8E85C625D1E27E0077D947 /* Resources */,
 				AB8E85C225D1E2520077D947 /* Model */,
+				AB8E85CD25D1E3170077D947 /* Onboarding + Register */,
+				AB8E85C625D1E27E0077D947 /* Resources */,
+				AB7242F025D605F700D45B7D /* Past Boxes */,
+				AB7242F125D605FE00D45B7D /* New Box */,
+				AB7242EF25D605F200D45B7D /* Home */,
 			);
-			path = SubscriptionBoxIggi;
+			path = SubscriptionBox2021;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

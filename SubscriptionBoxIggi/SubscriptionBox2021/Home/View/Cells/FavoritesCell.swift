@@ -19,7 +19,6 @@ class FavoritesCell: UICollectionViewCell {
     }
     
     func setup(){
-        //imgView.layer.cornerRadius = 10
         //title.text = "hello"
     }
     

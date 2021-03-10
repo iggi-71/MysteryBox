@@ -31,9 +31,9 @@ struct BoxItem{
 enum Category: String, CaseIterable{
     case food = "candy"
     case meds = "savoury"
-    case accessories = "accessories"
+    case accessories = "sizess"
     case toys = "toys"
-    case grooming = "grooming"
+    case grooming = "gadgets"
     
     func displayName() -> String{
         return self.rawValue.capitalized

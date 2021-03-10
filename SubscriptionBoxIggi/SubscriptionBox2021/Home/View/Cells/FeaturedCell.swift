@@ -17,15 +17,13 @@ class FeaturedCell: UICollectionViewCell {
         super.awakeFromNib()
         setup()
     }
-    
-    func setup(){
-        self.backView.backgroundColor = UIColor(named: "purple")
-        self.backView.layer.cornerRadius = 20
-        mainLabel.textColor = UIColor(named: "white")
-    }
-    
     func setContents(category: Category){
         imgView.image = UIImage(named: category.rawValue)
         mainLabel.text = category.displayName()
+    }
+    func setup(){
+        self.backView.backgroundColor = UIColor(named: "forest")
+        self.backView.layer.cornerRadius = 20
+        mainLabel.textColor = UIColor(named: "white")
     }
 }

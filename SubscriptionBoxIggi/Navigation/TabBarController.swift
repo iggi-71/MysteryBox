@@ -24,7 +24,7 @@ class TabBarController: UITabBarController{
         homeVC.tabBarItem = UITabBarItem(title:"Home", image: UIImage(systemName: "house"), selectedImage: UIImage(systemName: "house.fill"))
 
         let historyVC = HistoryVC()
-        historyVC.tabBarItem = UITabBarItem(title:"History", image: UIImage(systemName: "calendar"), selectedImage: UIImage(systemName: "calendar"))
+        historyVC.tabBarItem = UITabBarItem(title:"History", image: UIImage(systemName: "clock"), selectedImage: UIImage(systemName: "clock"))
 
         let newBoxVC = NewBoxVC()
         newBoxVC.tabBarItem = UITabBarItem(title:"New Box", image: UIImage(systemName: "shippingbox"), selectedImage: UIImage(systemName: "shippingbox.fill"))
@@ -45,6 +45,6 @@ class TabBarController: UITabBarController{
 extension TabBarController: UITabBarControllerDelegate{
     
     func tabBarController(_ tabBarController: UITabBarController, didSelect viewController: UIViewController) {
-        print("Hey you selected a new view controller")
+        print("Presed on new controller")
     }
 }
